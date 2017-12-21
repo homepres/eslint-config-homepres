@@ -21,7 +21,7 @@ If you use yarn, run `cat node_modules/eslint-config-homepres/package.json | jq 
   Linux/OSX users can run
 
   ```sh
-  yarn add -D sb-konzept/eslint-config-homepres
+  yarn add -D homepres/eslint-config-homepres
   cat node_modules/eslint-config-homepres/package.json | jq -M .peerDependencies | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add -D
   ```
 
